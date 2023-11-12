@@ -12,6 +12,10 @@
     import  winston  from  "winston"; //this is required for transporter
 	import  Logger  from  "winston-multi-file";
 
+	// for commonjs module
+	//const  winston  =  require("winston"); //this is required for transporter
+	//const  Logger  =  require("winston-multi-file");
+
 	const  logger  =  new  Logger();
 	
 	//set log directory default will be logs

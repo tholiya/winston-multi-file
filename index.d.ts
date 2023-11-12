@@ -1,5 +1,5 @@
-const winston = require("winston"); //this is required for transporter
-require("winston-daily-rotate-file");
+import winston from "winston";
+import 'winston-daily-rotate-file';
 
 class Logger {
   // Private properties
@@ -64,4 +64,4 @@ class Logger {
   };
 }
 
-module.exports = Logger;
+export default Logger;

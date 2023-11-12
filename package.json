@@ -1,18 +1,26 @@
 {
   "name": "winston-multi-file",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "**winston-multi-file** is used to create multiple files based on label, base of this package is [winston](https://www.npmjs.com/package/winston), you can integrate other winston transporter also.",
   "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "types": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tholiya/winston-multi-file.git"
   },
   "keywords": [
-    "winston"
+    "winston",
+    "logger",
+    "logging",
+    "logs",
+    "sysadmin",
+    "bunyan",
+    "pino",
+    "loglevel",
+    "tools",
+    "json",
+    "stream",
+    "file-logger"
   ],
   "author": "Rakesh Tholiya",
   "license": "MIT",
