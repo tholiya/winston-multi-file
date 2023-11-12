@@ -35,10 +35,10 @@ class Logger {
   getLogger(label) {
     if (!winston.loggers.has(label)) {
       // Add a file transport specific to the provided label
-      this.#transporters.push(this.#fileTransport(label));
+      let logTransporter = [...this.#transporters,this.#fileTransport(label)];
       // Create or get the logger with specified transports and label format
       winston.loggers.add(label, {
-        transports: this.#transporters,
+        transports: logTransporter,
         format: winston.format.label({ label }),
       });
     }

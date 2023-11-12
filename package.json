@@ -1,6 +1,6 @@
 {
   "name": "winston-multi-file",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "**winston-multi-file** is used to create multiple files based on label, base of this package is [winston](https://www.npmjs.com/package/winston), you can integrate other winston transporter also.",
   "main": "index.js",
   "types": "./index.d.ts",
